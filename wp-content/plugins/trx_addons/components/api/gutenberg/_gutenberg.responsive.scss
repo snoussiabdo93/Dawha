@@ -1,0 +1,9 @@
+@mixin gutenberg--sm() {
+    /* Gutenberg */
+	.wp-block-columns {
+		@include flex-direction(column);
+	}
+	.wp-block-columns[class*="has-"] .wp-block-column {
+		width: 100%;
+	}
+}
