@@ -9,6 +9,7 @@ MC4WP: Mailchimp for WordPress
 
 Here, you can browse the source code of the [MC4WP: Mailchimp for WordPress Plugin](https://wordpress.org/plugins/mailchimp-for-wp/), find and discuss open issues or contribute code to the plugin.
 
+<<<<<<< HEAD
 Requirements
 --------------
 
@@ -16,6 +17,8 @@ Requirements
 - WordPress version 4.6 or higher
 
 
+=======
+>>>>>>> origin/main
 Installation
 ------------
 

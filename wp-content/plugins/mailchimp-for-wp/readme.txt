@@ -4,10 +4,17 @@ Donate link: https://www.mc4wp.com/contribute/#utm_source=wp-plugin-repo&utm_med
 Tags: mailchimp, subscribe, email, newsletter, form
 Requires at least: 4.6
 Tested up to: 6.6
+<<<<<<< HEAD
 Stable tag: 4.9.18
 License: GPL-3.0-or-later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 Requires PHP: 7.2
+=======
+Stable tag: 4.9.17
+License: GPLv3 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Requires PHP: 5.6
+>>>>>>> origin/main
 
 The #1 Mailchimp plugin for WordPress. Allows you to add a multitude of newsletter sign-up methods to your site.
 
@@ -26,6 +33,7 @@ This plugins helps you grow your email list in Mailchimp. You can use it to crea
 - Sign-up forms which are good looking, user-friendly and mobile optimized. You have complete control over the form fields and can build your forms using native HTML.
 
 - Seamless integration with the following plugins:
+<<<<<<< HEAD
 	- WordPress Comment Form
 	- WordPress Registration Form
 	- Contact Form 7
@@ -41,6 +49,23 @@ This plugins helps you grow your email list in Mailchimp. You can use it to crea
 	- UltimateMember
 	- HTML Forms
 	- AffiliateWP
+=======
+    - WordPress Comment Form
+    - WordPress Registration Form
+    - Contact Form 7
+    - WooCommerce
+    - Gravity Forms
+    - Ninja Forms 3
+    - WPForms
+    - BuddyPress
+    - MemberPress
+    - Events Manager
+    - Easy Digital Downloads
+    - Give
+    - UltimateMember
+    - HTML Forms
+    - AffiliateWP
+>>>>>>> origin/main
 
 - Is the plugin you want to integrate with not listed above? You can probably still use our [custom integration](https://www.mc4wp.com/kb/add-subscribe-checkbox-custom-form/) feature. Alternatively, the plugin comes with a PHP API to programmatically add a new subscriber to Mailchimp.
 
@@ -189,6 +214,7 @@ The plugin provides various filter and action hooks that allow you to modify or 
 == Changelog ==
 
 
+<<<<<<< HEAD
 #### 4.9.18 - Oct 21, 2024
 
 - Bump required PHP version to 7.2.
@@ -198,6 +224,8 @@ The plugin provides various filter and action hooks that allow you to modify or 
 - Begrudgingly rename Mailchimp lists to Mailchimp audiences throughout the plugin's admin interfaces.
 
 
+=======
+>>>>>>> origin/main
 #### 4.9.17 - Sep 17, 2024
 
 - Fix compatibility with WooCommerce versions 8.5 to 8.8 because of private method that was later made public.
@@ -1181,7 +1209,29 @@ This release updates the plugin to version 3 of the Mailchimp API. Please [read 
 
 - Don't write to debug log if it is not writable.
 - Reset some CSS properties for commonly used class names in Form Editor & Debug Log.
+<<<<<<< HEAD
 - Do not unnecessarily register styles which are then immediately ...
+=======
+- Do not unnecessarily register styles which are then immediately enqueued.
+
+**Additions**
+
+- Add "is required field" option for dropdown & radio fields in Field Helper.
+- Link to [Boxzilla plugin](https://boxzillaplugin.com/) from admin sidebar.
+
+
+#### 3.1.8 - May 23, 2016
+
+**Fixes**
+
+- Form Preview mode replaced all titles on that page with "Form Preview".
+- API class fix for [eCommerce360 functionality](https://www.mc4wp.com/kb/what-is-ecommerce/).
+
+**Improvements**
+
+- Show dismissible notice when API key is not set.
+- Show empty API key errors ...
+>>>>>>> origin/main
 
 == Upgrade Notice ==
 

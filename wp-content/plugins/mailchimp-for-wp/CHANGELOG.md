@@ -1,6 +1,7 @@
 Changelog
 =========
 
+<<<<<<< HEAD
 #### 4.9.18 - Oct 21, 2024
 
 - Bump required PHP version to 7.2.
@@ -10,6 +11,8 @@ Changelog
 - Begrudgingly rename Mailchimp lists to Mailchimp audiences throughout the plugin's admin interfaces.
 
 
+=======
+>>>>>>> origin/main
 #### 4.9.17 - Sep 17, 2024
 
 - Fix compatibility with WooCommerce versions 8.5 to 8.8 because of private method that was later made public.

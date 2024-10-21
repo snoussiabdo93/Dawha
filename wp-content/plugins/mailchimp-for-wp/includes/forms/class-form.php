@@ -760,6 +760,7 @@ class MC4WP_Form
      */
     public function get_subscriber_tags()
     {
+<<<<<<< HEAD
     	$tags = array();
 	    foreach (explode(',', $this->settings['subscriber_tags']) as $v) {
 	        $v = trim($v);
@@ -769,5 +770,22 @@ class MC4WP_Form
 	        $tags[] = $v;
 	    }
 	    return $tags;
+=======
+        if (empty($this->settings['subscriber_tags'])) {
+            return array();
+        }
+
+        $tags = explode(',', $this->settings['subscriber_tags']);
+        $tags = array_map('trim', $tags);
+
+        // remove empty tag values
+        foreach ($tags as $i => $tag) {
+            if ($tag === '') {
+                unset($tags[ $i ]);
+            }
+        }
+
+        return array_values($tags);
+>>>>>>> origin/main
     }
 }

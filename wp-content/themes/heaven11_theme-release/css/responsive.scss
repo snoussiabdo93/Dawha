@@ -15,7 +15,10 @@
 @import "../plugins/trx_addons/_trx_addons-responsive.scss";
 @import "../plugins/elementor/_elementor-responsive.scss";
 @import "../plugins/gutenberg/_gutenberg-responsive.scss";
+<<<<<<< HEAD
 @import "../plugins/the-events-calendar/_the-events-calendar-responsive.scss";
+=======
+>>>>>>> origin/main
 
 
 /* SASS Suffix: --xxl */
@@ -37,7 +40,10 @@
 	@include trx_addons--xl();
 	@include elementor--xl();
 	@include gutenberg--xl();
+<<<<<<< HEAD
 	@include tribe_events--xl();
+=======
+>>>>>>> origin/main
 }
 
 
@@ -52,7 +58,10 @@
 	@include trx_addons--lg();
 	@include elementor--lg();
 	@include gutenberg--lg();
+<<<<<<< HEAD
 	@include tribe_events--lg();
+=======
+>>>>>>> origin/main
 }
 
 
@@ -74,7 +83,10 @@
 	@include trx_addons--md();
 	@include elementor--md();
 	@include gutenberg--md();
+<<<<<<< HEAD
 	@include tribe_events--md();
+=======
+>>>>>>> origin/main
 }
 
 
@@ -89,7 +101,10 @@
 	@include trx_addons--sm();
 	@include elementor--sm();
 	@include gutenberg--sm();
+<<<<<<< HEAD
 	@include tribe_events--sm();
+=======
+>>>>>>> origin/main
 }
 
 
@@ -103,5 +118,8 @@
 	@include trx_addons--xs();
 	@include elementor--xs();
 	@include gutenberg--xs();
+<<<<<<< HEAD
 	@include tribe_events--xs();
+=======
+>>>>>>> origin/main
 }
