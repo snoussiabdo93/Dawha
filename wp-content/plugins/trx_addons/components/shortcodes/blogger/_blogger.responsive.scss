@@ -1,0 +1,74 @@
+@mixin sc_blogger--xl() {
+	/* Blogger */
+}
+
+@mixin sc_blogger--lg() {
+	/* Blogger */
+	
+	/* Layout: Magazine */
+	.sc_blogger_news_magazine {
+		.sc_blogger_grid_wrap.sc_blogger_grid_columns_3 .sc_blogger_item:nth-child(n+2) .sc_blogger_item_title + .sc_blogger_item_meta {
+			display: none;
+		}
+	}
+}
+
+@mixin sc_blogger--md() {
+	/* Blogger */
+	
+	/* Layout: Magazine */
+	.sc_blogger_news_magazine {
+		.sc_blogger_grid_wrap.sc_blogger_grid_columns_2 .sc_blogger_item:first-child,
+		.sc_blogger_grid_wrap.sc_blogger_grid_columns_3 .sc_blogger_item:first-child {
+			width: 50.5%;
+		}
+		.sc_blogger_grid_wrap.sc_blogger_grid_columns_2 .sc_blogger_item:nth-child(n+2),
+		.sc_blogger_grid_wrap.sc_blogger_grid_columns_3 .sc_blogger_item:nth-child(n+2) {
+			width: 46%;
+			margin-right: 0 !important;
+		}
+		.sc_blogger_grid_wrap.sc_blogger_grid_columns_3 .sc_blogger_item:last-child {
+			padding-bottom: 0;
+			margin-bottom: 0;
+			border-bottom: none;
+		}
+	}
+}
+
+@mixin sc_blogger--sm() {
+	/* Blogger */
+	
+	/* Layout: Announce */
+	.sc_blogger_news_announce {
+		.sc_blogger_item + .sc_blogger_item {
+			margin-top: 2em;
+		}
+		.sc_blogger_grid_wrap {
+			display: block;
+		}
+	}
+	
+	/* Layout: Magazine */
+	.sc_blogger_news_magazine {
+		.sc_blogger_grid_wrap:not([class*="sc_blogger_grid_columns_"]) .sc_blogger_item:first-child,
+		.sc_blogger_grid_wrap[class*="sc_blogger_grid_columns_"] .sc_blogger_item:first-child {
+			padding-bottom: 1em;
+			margin-bottom: 1em;
+			border-bottom: 1px solid #ddd;
+		}
+		.sc_blogger_grid_wrap:not([class*="sc_blogger_grid_columns_"]) .sc_blogger_item:last-child,
+		.sc_blogger_grid_wrap[class*="sc_blogger_grid_columns_"] .sc_blogger_item:last-child {
+			padding-bottom: 0;
+			margin-bottom: 0;
+			border-bottom: none;
+		}
+		.sc_blogger_grid_wrap .sc_blogger_item {
+			float: none !important;
+			width: 100% !important;
+			margin-right: 0 !important;
+		}
+		.sc_blogger_grid_wrap.sc_blogger_grid_columns_3 .sc_blogger_item:nth-child(n+2) .sc_blogger_item_title + .sc_blogger_item_meta {
+			display: block;
+		}
+	}
+}
